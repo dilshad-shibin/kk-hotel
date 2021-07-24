@@ -33,7 +33,11 @@ h3,
 h4,
 h5 {
     font-family: 'Lexend Deca', sans-serif;
-    color: #193d6f
+    color: #193d6f;
+}
+
+h1{
+    font-size: 2.4rem;
 }
 
 p{
@@ -340,4 +344,144 @@ a {
     background-size: cover;
     background-position: center;
     height: 700px;
+}
+
+/* About */
+.about-area{
+    padding: 100px 0;
+    position: relative;
+}
+
+.about-content{
+    margin-top: 50px;
+}
+
+.about-content h1{
+    position: relative;
+    margin-bottom: 20px;
+}
+
+.about-content h1::before{
+    position: absolute;
+    content: "About";
+    color: #eee;
+    font-size: 140px;
+    left: 0;
+    z-index: -1;
+    top: -100px;
+}
+
+.about-content p{
+    font-size: 18px;
+    max-width: 450px;
+    color: #193d6f;
+    font-weight: 500;
+}
+
+.about-box{
+    position: relative;
+}
+
+.view-btn{
+    position: absolute;
+    bottom: 100px;
+    left: -15px;
+}
+
+.btn-style{
+    background: #eba24a;
+    padding: 35px 35px;
+    color: #fff;
+    font-size: 19px;
+}
+
+.box-inner{
+    background-color: #193d6f;
+    padding: 50px 75px;
+    margin-left: 120px;
+}
+
+.count{
+    border-bottom: 1px solid #eba24a;
+    margin-bottom: 20px;
+}
+
+.count-border-none{
+    border-bottom: 0;
+}
+
+.count h1{
+    color: #eba24a;
+    padding: 10px 0;
+}
+
+.big-text{
+    float: left;
+    font-size: 60px;
+    font-weight: 500;
+    margin-right: 10px;
+    line-height: 1;
+    color: #303030;
+}
+
+/* Our Hotels */
+.hotels-area{
+    padding: 100px 0;
+    background-color: #f2f3f3;
+}
+
+.hotel-box{
+    background-color: #fff;
+    box-shadow: 0 4px 8px  rgba(0,0,0,0.15);
+    margin-bottom: 35px;
+}
+
+.hotel-img{}
+
+.hotel-img img{
+    
+}
+
+.hotel-content{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.hotel-logo{
+    display: flex;
+    align-items: center;
+    padding-left: 20px;
+}
+
+.hotel-logo img{
+    max-width: 200px;
+}
+
+.hotel-logo .hotel-logo-img{
+    max-width: 80px;
+}
+
+.hotel-name h4{
+    text-transform: uppercase;
+    font-size: 1rem;
+    margin-left: 30px;
+    font-weight: 600;
+}
+
+.hotel-btn{
+    display: flex;
+    align-items: center;
+    padding: 32px 40px;
+    background: #eba24a;
+}
+
+.hotel-btn a{
+    color: #fff;
+    font-size: 18px;
+}
+
+.hotel-btn a i{
+    font-size: 15px;
+    font-weight: 400 !important;
 }
