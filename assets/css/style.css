@@ -474,16 +474,20 @@ a {
 .count{
     border-bottom: 1px solid #eba24a;
     margin-bottom: 20px;
+    display: flex;
+    align-items: center;
 }
 
 .count-border-none{
     border-bottom: 0;
 }
 
-.count h1{
+.count h1,
+.count span{
     color: #eba24a;
     padding: 10px 0;
     font-size: 2.5rem;
+    margin: 0;
 }
 
 .big-text{
