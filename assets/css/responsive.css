@@ -1,0 +1,353 @@
+/* responsive css */
+@media(max-width: 1206px){
+    .single-testi,
+    .owl-dots{
+        padding-left: 150px;
+    }
+}
+
+
+@media(max-width:1199px){
+    .logo_sec a img{
+        max-width: 200px;
+    }
+    .header_outer{
+        height: 96px;
+    }
+    .heaeder_top_bar,
+    .desktop_menu{
+        display: none;
+    }
+    .logo_sec{
+        left: 15px;
+        -webkit-transform: translateX(0);
+        transform: translateX(0);
+    }
+    .mobile_menu{
+        display: flex;
+        -webkit-box-align: center;
+        -ms-flex-align: center;
+        align-items: center;
+    }
+    .box-inner{
+        padding: 40px;
+    }
+    .view-btn{
+        bottom: -10px;
+        left: -18px;
+    }
+    .hotels-head{
+        padding: 40px 50px;
+        top: -70px;
+    }
+    .hotel-logo img{
+        max-width: 150px;
+    }
+    .hotel-name h4{
+        letter-spacing: 1px;
+        font-size: 1rem;
+    }
+    .hotel-btn{
+        padding: 25px 40px;
+    }
+    .dest-img img{
+        max-width: 470px;
+    }
+}
+
+@media(max-width:1024px){
+    .testi-box{
+        width: 60%;
+    }
+    .testi-img{
+        width: 35%;
+    }
+    .client-para p{
+        font-size: 15px;
+    }
+}
+
+@media(max-width: 991px){
+    .form-box{
+        flex-direction: column;
+        height: 180px;
+    }
+    .form-btn{
+        margin: 18px 0;
+    }
+    .enq-form-outer{
+        margin-top: 10px;
+    }
+    .about-content p{
+        margin-bottom: 30px;
+    }
+    .view-btn{
+        left: 50%;
+        transform: translate(-50%,-50%);
+        bottom: -50px;
+    }
+    .box-inner{
+        margin-left: 0;
+        max-width: 450px;
+    }
+    .about-area{
+        padding: 60px 0 200px;
+    }
+    .ft-icon img{
+        max-width: 120px;
+    }
+    .ft-content h2{
+        font-size: 1.5rem;
+    }
+    .dest-img img{
+        max-width: 100%;
+        right: -91px;
+        margin-top: -45px;
+    }
+    .dest-more-btn{
+        top: 0;
+    }
+    .destination-area{
+        padding: 100px 0 120px;
+    }
+    .border-line991{
+        border-right: none;
+    }
+    .reserve-bx-last{
+        justify-content: center;
+        margin-top: 25px;
+    }
+}
+
+@media(max-width: 767px){
+    .property-box{
+        padding-left: 50px;
+        padding-right: 50px;
+    }
+    .form-box{
+        height: 400px;
+    }
+    .enq-form-outer{
+        margin-top: 15px;
+    }
+    .prop-box, .prop-box2{
+        padding-top: 10px;
+        padding-bottom: 2px;
+    }
+    .hotels-head{
+        width: 80%;
+    }
+    .feature-area{
+        height: 1000px;
+    }
+    .testi-img{
+        display: none;
+    }
+    .testi-box{
+        width: 100%;
+        padding: 50px 0;
+    }
+    .client-para{
+        padding: 0 50px;
+    }
+    .single-testi, .owl-dots{
+        padding-left: 0;
+    }
+    .reserve-bx-one{
+        justify-content: center;
+    }
+    .border-line{
+        border-right: none;
+    }
+    .reserve-bx{
+        min-height: 50px;
+    }
+}
+
+@media(max-width: 575px){
+    .dest-img img{
+        right: 0;
+    }
+    .feature-area {
+        height: 1225px;
+    }
+    .about-content h1::before{
+        font-size: 120px;
+        top: -90px;
+    }
+    .hotel-logo .hotel-logo-img{
+        max-width: 60px;
+    }
+    .hotel-logo img{
+        max-width: 100px;
+    }
+    .hotel-name h4{
+        letter-spacing: 0px;
+        font-size: 1rem;
+        text-transform: unset;
+    }
+    .hotel-btn{
+        padding: 20px 35px;
+    }
+    .hotel-btn a{
+        font-size: 15px;
+    }
+}
+
+@media(max-width: 425px){
+    .logo_sec a img{
+        max-width: 130px;
+    }
+    .logo_sec{
+        padding: 20px 20px 25px;
+    }
+    .header_outer{
+        height: 85px;
+    }
+    .mobile_menu{
+        top: 25px;
+    }
+    .banner-head h1{
+        font-size: 45px;
+    }
+    .banner-btn a{
+        width: 65%;
+        padding: 15px 40px;
+    }
+    .banner-slider,
+    .banner-ct{
+        height: 550px;
+    }
+    .form-box {
+        height: 410px;
+        padding-bottom: 10px;
+    }
+    .view-btn{
+        bottom: -100px;
+    }
+    .btn-style{
+        padding: 20px 40px;
+        font-size: 18px;
+    }
+    .about-area{
+        padding: 60px 0 260px;
+    }
+    .hotels-head h1{
+        padding-left: 0;
+    }
+    .feature-box{
+        text-align: center;
+    }
+    .ft-content p{
+        max-width: inherit;
+        margin-bottom: 30px;
+    }
+    .ft-btn {
+        margin: 60px 0;
+    }
+    .ft-btn a{
+        font-size: 20px;
+    }
+    .dest-box{
+        padding: 40px 40px;
+    }
+    .dest-img img{
+        margin-top: 30px;
+    }
+    .dest-more-btn a{
+        padding: 25px 60px;
+        font-size: 20px;
+    }
+}
+
+@media(max-width: 375px){
+    .about-content h1::before{
+        font-size: 100px;
+        top: -70px;
+    }
+    .about-content h1{
+        font-size: 2.5rem;
+    }
+    .form-btn{
+        padding: 25px 45px;
+        height: 0
+    }
+    .form-btn a{
+        font-size: 18px;
+    }
+    .header_outer{
+        height: 75px;
+    }
+    .logo_sec{
+        padding: 15px 15px 20px;
+    }
+    .logo_sec a img{
+        max-width: 120px;
+    }
+    .mobile_menu {
+        top: 20px;
+    }
+    .apply_now{
+        margin-right: 10px;
+        padding: 7px 29px;
+        font-size: 12px;
+    }
+    .view-btn{
+        width: 100%;
+        display: flex;
+        justify-content: center;
+        left: unset;
+        transform: unset;
+        bottom: -110px;
+    }
+    .count h1{
+        font-size: 2.4rem;
+    }
+    .hotels-head h1{
+        font-size: 2rem;
+    }
+    .hotel-logo{
+        padding-left: 10px;
+    }
+    .hotel-btn {
+        padding: 16px 30px;
+    }
+    .hotel-btn a {
+        font-size: 10px;
+    }
+    .hotel-name h4{
+        font-size: 0.875rem;
+    }
+}
+
+@media(max-width:360px){
+    .tt-menu-toggle{
+        width: 25px;
+    }
+    .apply_now{
+        padding: 7px 22px;
+    }
+    .property-box {
+        padding-left: 40px;
+        padding-right: 40px;
+    }
+    .form-btn {
+        padding: 25px 50px;
+    }
+    .about-content h1::before {
+        font-size: 90px;
+        top: -60px;
+    }
+    .count h1 {
+        font-size: 2.2rem;
+    }
+    .hotels-area{
+        padding: 120px 0 70px;
+    }
+    .hotel-btn {
+        padding: 16px 25px;
+    }
+    .client-para {
+        padding: 0 25px;
+    }
+}
