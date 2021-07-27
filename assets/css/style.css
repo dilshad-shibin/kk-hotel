@@ -529,8 +529,16 @@ a {
 
 .hotel-box{
     background-color: #fff;
-    box-shadow: 0 4px 8px  rgba(0,0,0,0.15);
     margin-bottom: 35px;
+    -webkit-transition: all 0.3s ease 0s;
+    transition: all 0.3s ease 0s;
+}
+
+.hotel-box:hover{
+    -webkit-box-shadow: 0 10px 25px rgb(0 0 0 / 10%);
+    box-shadow: 0 10px 20px rgb(0 0 0 / 20%);
+    -webkit-transform: translateY(-3px) !important;
+    transform: translateY(-3px) !important;
 }
 
 .hotel-img img{

@@ -47,10 +47,18 @@
         }
     });
 
-    // :: 16.0 COUNTERUP ACTIVE CODE
+    // :: COUNTERUP ACTIVE CODE
     $('.counter').counterUp({
         delay: 10,
         time: 1000
+    });
+
+    // :: AOS ACTIVE CODE
+    AOS.init();
+
+    // :: 8.0 PREVENT DEFAULT ACTIVE CODE
+    $("a[href='#']").on('click', function ($) {
+        $.preventDefault();
     });
 
 
