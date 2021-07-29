@@ -530,8 +530,41 @@ a {
 .hotel-box{
     background-color: #fff;
     margin-bottom: 35px;
-    -webkit-transition: all 0.3s ease 0s;
-    transition: all 0.3s ease 0s;
+    -webkit-transition: 0.3s;
+    transition:  0.5s;
+    position: relative;
+}
+
+.hotel-hover-logo{
+    visibility: hidden;
+    opacity: 0;
+    position: absolute;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    top: 0;
+    background: #fff;
+    height: 100%;
+    width: 100%;
+}
+
+.hotel-box:hover .hotel-hover-logo{
+    position: absolute;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    top: 0;
+    background: #fff;
+    height: 100%;
+    width: 100%;
+    opacity: .9;
+    flex-direction: column;
+    transition: .5s;
+    visibility: visible;
+}
+
+.hover-logo2 img{
+    max-width: 300px;
 }
 
 .hotel-box:hover{
