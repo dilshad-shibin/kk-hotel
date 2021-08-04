@@ -364,7 +364,10 @@
         padding: 0 25px;
     }
     .hover-logo img{
-        max-width: 280px;
+        max-width: 200px;
+    }
+    .hover-logo2 img{
+        max-width: 250px;
     }
     .hover-name h2{
         font-size: 1.6rem;

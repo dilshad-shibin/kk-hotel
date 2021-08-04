@@ -563,6 +563,10 @@ a {
     visibility: visible;
 }
 
+.hover-logo img{
+    max-width: 300px;
+}
+
 .hover-logo2 img{
     max-width: 400px;
 }
@@ -595,7 +599,7 @@ a {
 }
 
 .hotel-logo .hotel-logo-img{
-    max-width: 80px;
+    max-width: 100px;
 }
 
 .hotel-name h4{
