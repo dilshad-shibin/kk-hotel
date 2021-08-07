@@ -1268,3 +1268,233 @@ form{
 .popup-btn{
     margin-top: 20px;
 }
+
+/* Our Hotels Page */
+.hotel-slider{
+    position: relative;
+    background-image: url(../img/our-hotels/banner.jpg);
+    background-size: cover;
+    background-position: center;
+    height: 400px;
+}
+
+.broad-about{
+    padding: 80px 0;
+}
+
+.broad-about-content{
+    padding: 0 20px 0 30px;
+}
+
+.broad-about-content p{
+    color: #373737;
+    font-size: 17px;
+}
+
+.hotel-feature{
+    padding: 0 0 80px;
+}
+
+.hotel-fea-area{
+    border-top: 1px solid #eba24a;
+    border-bottom: 1px solid #eba24a;
+    padding: 20px 0;
+}
+
+.hotel-ft-box{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 0 10px;
+}
+
+.ft-name h2{
+    font-size: 1.5rem;
+}
+
+.hotels-img{
+    /* padding-bottom: 60px; */
+}
+
+.main-img{
+    position: relative;
+    overflow: hidden;
+}
+
+.main-img::before,
+.side-img li::before {
+    background-color: rgba(255, 255, 255, 0.2);
+    content: "";
+    height: 200%;
+    left: -280px;
+    position: absolute;
+    top: -50%;
+    -webkit-transform: rotate(35deg);
+    -ms-transform: rotate(35deg);
+    transform: rotate(35deg);
+    -webkit-transition: all 2000ms cubic-bezier(0.19, 1, 0.22, 1);
+    -o-transition: all 2000ms cubic-bezier(0.19, 1, 0.22, 1);
+    transition: all 2000ms cubic-bezier(0.19, 1, 0.22, 1);
+    width: 80px;
+    z-index: 0; 
+}
+
+  .main-img::after,
+  .side-img li::after {
+    background-color: rgba(255, 255, 255, 0.2);
+    content: "";
+    height: 200%;
+    left: 180%;
+    position: absolute;
+    top: -50%;
+    -webkit-transform: rotate(35deg);
+    -ms-transform: rotate(35deg);
+    transform: rotate(35deg);
+    -webkit-transition: all 2000ms cubic-bezier(0.19, 1, 0.22, 1);
+    -o-transition: all 2000ms cubic-bezier(0.19, 1, 0.22, 1);
+    transition: all 2000ms cubic-bezier(0.19, 1, 0.22, 1);
+    width: 80px;
+    z-index: 0; 
+}
+
+  .main-img:hover::before,
+  .side-img li:hover::before {
+    left: 180%;
+    -webkit-transition: all 2000ms cubic-bezier(0.19, 1, 0.22, 1);
+    -o-transition: all 2000ms cubic-bezier(0.19, 1, 0.22, 1);
+    transition: all 2000ms cubic-bezier(0.19, 1, 0.22, 1); 
+}
+
+  .main-img:hover::after,
+  .side-img li:hover::after {
+    left: -280px;
+    -webkit-transition: all 2000ms cubic-bezier(0.19, 1, 0.22, 1);
+    -o-transition: all 2000ms cubic-bezier(0.19, 1, 0.22, 1);
+    transition: all 2000ms cubic-bezier(0.19, 1, 0.22, 1); 
+}
+
+.side-img{
+    float: right;
+}
+
+.side-img li{
+    margin-bottom: 10px;
+    overflow: hidden;
+    position: relative;
+}
+
+.side-img li:last-child{
+    margin-bottom: 0;
+}
+
+.hotel-facilities{
+    padding: 20px 0 70px; 
+}
+
+.comp-fac{
+    background-color: #193d6f;
+    padding: 35px;
+}
+
+.comp-fac h2{
+    color: #eba24a;
+    font-weight: 600;
+    font-size: 1.8rem;
+    margin-bottom: 25px;
+}
+
+.comp-fac p{
+    color: #ffffff;
+    margin-bottom: 0;
+    cursor: pointer;
+}
+
+.comp-fac p:hover{
+    color: #eba24a;
+}
+
+.fac-aminities{
+    background-color: #eba24a;
+    padding: 35px;
+    margin-bottom: 40px;
+}
+
+.fac-aminities h2{
+    color: #fff;
+    font-size: 1.6rem;
+    font-weight: 600;
+    margin-bottom: 25px;
+}
+
+.fac-aminities p{
+    margin-bottom: 0;
+    color: #ffffff;
+    font-size: 17px;
+    cursor: pointer;
+}
+
+.fac-aminities p:hover{
+    color: #193d6f;
+}
+
+.other-fac{
+    padding-left: 18px;
+}
+
+.other-fac h2{
+    color: #eba24a;
+    margin-bottom: 20px;
+    font-weight: 600;
+    font-size: 1.8rem;
+}
+
+.fac-mainheader{
+    color: #f1eeea;
+    font-size: 150px;
+    margin-bottom: 0;
+}
+
+.booknow-banner{
+    padding-bottom: 80px;
+}
+
+.booknow-img{
+    background-image: url(../img/our-hotels/footer-banner.jpg);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    padding: 45px 80px 70px;
+}
+
+.booknow-img h3{
+    color: #ffffff;
+    margin-bottom: 55px;
+    font-family: 'Playfair Display', serif;
+    font-size: 1.5rem;
+    line-height: 1.5;
+}
+
+.booknow-btns .booknow-btn1{
+    color: #fff;
+    border: 1px solid #eba24a;
+    padding: 22px 50px;
+    font-size: 22px;
+    margin-right: 20px;
+}
+
+.booknow-btns .booknow-btn1:hover{
+    background-color: #eba24a;
+}
+
+.booknow-btns .booknow-btn2{
+    color: #fff;
+    background: #eba24a;
+    padding: 22px 50px;
+    font-size: 22px;
+    border: 1px solid #eba24a;
+}
+
+.booknow-btns .booknow-btn2:hover{
+    border: 1px solid #eba24a;
+    background: transparent;
+}
