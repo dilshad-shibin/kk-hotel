@@ -1455,7 +1455,7 @@ form{
 }
 
 .booknow-banner{
-    padding-bottom: 80px;
+    padding-bottom: 30px;
 }
 
 .booknow-img{
@@ -1497,4 +1497,104 @@ form{
 .booknow-btns .booknow-btn2:hover{
     border: 1px solid #eba24a;
     background: transparent;
+}
+
+/* contact us */
+.contact-hotel{
+    padding: 0 0 80px;
+}
+
+.contact-address{
+    position: relative;
+    width: 100%;
+}
+
+.contact-address .img{
+    height: 380px;
+}
+
+.contact-address .img img{
+    height: 100%;
+    width: 100%;
+}
+
+.contact-address .address{
+    position: absolute;
+    bottom: -50px;
+    background: #eba24a;
+    padding: 10px 15px;
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+}
+
+.address-area{
+    display: flex;
+    flex: 0 0 50%;
+    border-right: 1px solid #193d6f;
+}
+
+.address-area svg{
+    position: relative;
+    top: 8px;
+    height: 2rem;
+    width: 2rem !important;
+    color: #193d6f;
+    margin-right: 10px;
+}
+
+.phone-area{
+    flex: 0 0 50%;
+    padding-left: 20px;
+}
+
+.phone-area a{
+    color: #303030;
+}
+
+.phone-area svg{
+    color: #193d6f;
+}
+
+.phone-area ul{
+    display: flex;
+    align-items: center;
+    margin-top: 5px;
+}
+
+.phone-area ul li{
+    margin-right: 10px;
+}
+
+.phone-area ul li a{
+    border: 1px solid #193d6f;
+    padding: 3px 8px;
+    border-radius: 5px;
+}
+
+.phone-area ul li:hover a{
+    border: 1px solid #fff !important;
+}
+
+.phone-area ul li:hover svg{
+    color: #fff;
+}
+
+.phone-area a:hover,
+.phone-area a:hover svg{
+    color: #fff !important;
+}
+
+.contact-location{
+    /* height: 380px; */
+    height: 428px;
+}
+
+.contact-location iframe{
+    width: 100%;
+    height: 100%;
+}
+
+.fac-mainheader.name{
+    font-size: 110px;
 }
