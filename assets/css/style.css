@@ -1520,9 +1520,9 @@ form{
 
 .contact-address .address{
     position: absolute;
-    bottom: -50px;
+    bottom: -150px;
     background: #eba24a;
-    padding: 12px 15px;
+    padding: 20px 15px;
     display: flex;
     width: 100%;
     justify-content: space-between;
@@ -1536,6 +1536,8 @@ form{
 
 .address-area p{
     color: #fff;
+    font-size: 18px;
+    line-height: 1.5;
 }
 
 .address-area svg{
@@ -1543,7 +1545,7 @@ form{
     top: 8px;
     height: 2rem;
     width: 2rem !important;
-    color: #193d6f;
+    color: #fff;
     margin-right: 10px;
 }
 
@@ -1557,7 +1559,7 @@ form{
 }
 
 .phone-area svg{
-    color: #193d6f;
+    /* color: #193d6f; */
 }
 
 .phone-area ul{
@@ -1591,7 +1593,7 @@ form{
 
 .contact-location{
     /* height: 380px; */
-    height: 428px;
+    height: 528px;
     filter: saturate(0.5);
 }
 
