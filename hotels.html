@@ -247,20 +247,34 @@
                 <div class="container">
                     <div class="row">
                         <div class="col-md-9 col-sm-9">
-                            <div class="main-img">
-                                <img src="assets/img/our-hotels/ht1.jpg" alt="">
+                            <div class="main-img tab-content" id="myTabContent">
+                                <div class="tab-pane fade show active" id="home" role="tabpanel" aria-labelledby="home-tab">
+                                    <img src="assets/img/our-hotels/ht1.jpg" alt="">
+                                </div>
+                                <div class="tab-pane fade" id="profile" role="tabpanel" aria-labelledby="profile-tab">
+                                    <img src="assets/img/our-hotels/right-img/right4.jpg" alt="">
+                                </div>
+                                <div class="tab-pane fade" id="contact" role="tabpanel" aria-labelledby="contact-tab">
+                                    <img src="assets/img/our-hotels/right-img/right3.jpg" alt="">
+                                </div>
                             </div>
                         </div>
                         <div class="col-md-3 col-sm-3">
-                            <ul class="side-img">
-                                <li>
-                                    <img src="assets/img/our-hotels/ht2.jpg" alt="">
+                            <ul class="side-img nav nav-tabs" id="myTab" role="tablist">
+                                <li class="nav-item">
+                                    <a class="nav-link active" id="home-tab" data-toggle="tab" href="#home" role="tab" aria-controls="home" aria-selected="true">
+                                        <img src="assets/img/our-hotels/ht5.jpg" alt="">
+                                    </a>
                                 </li>
-                                <li>
-                                    <img src="assets/img/our-hotels/ht3.jpg" alt="">
+                                <li class="nav-item">
+                                    <a class="nav-link" id="profile-tab" data-toggle="tab" href="#profile" role="tab" aria-controls="profile" aria-selected="false">
+                                        <img src="assets/img/our-hotels/ht6.jpg" alt="">
+                                    </a>
                                 </li>
-                                <li>
-                                    <img src="assets/img/our-hotels/ht4.jpg" alt="">
+                                <li class="nav-item">
+                                    <a class="nav-link" id="contact-tab" data-toggle="tab" href="#contact" role="tab" aria-controls="contact" aria-selected="false">
+                                        <img src="assets/img/our-hotels/ht4.jpg" alt="">
+                                    </a>
                                 </li>
                             </ul>
                         </div>
@@ -558,5 +572,11 @@
     <script src="assets/js/bootstrap-datepicker.min.js"></script>
     <script src="assets/js/plugins.js"></script>
     <script src="assets/js/custom.js"></script>
+
+    <script>
+        $(".nav-link").hover(function(){
+            $(this).tab("show")
+        })
+    </script>
 </body>
 </html>

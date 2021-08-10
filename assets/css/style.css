@@ -1522,7 +1522,7 @@ form{
     position: absolute;
     bottom: -50px;
     background: #eba24a;
-    padding: 10px 15px;
+    padding: 12px 15px;
     display: flex;
     width: 100%;
     justify-content: space-between;
@@ -1532,6 +1532,10 @@ form{
     display: flex;
     flex: 0 0 50%;
     border-right: 1px solid #193d6f;
+}
+
+.address-area p{
+    color: #fff;
 }
 
 .address-area svg{
@@ -1549,7 +1553,7 @@ form{
 }
 
 .phone-area a{
-    color: #303030;
+    color: #fff;
 }
 
 .phone-area svg{
@@ -1577,17 +1581,18 @@ form{
 }
 
 .phone-area ul li:hover svg{
-    color: #fff;
+    color: #0056b3;
 }
 
 .phone-area a:hover,
 .phone-area a:hover svg{
-    color: #fff !important;
+    color: #0056b3 !important;
 }
 
 .contact-location{
     /* height: 380px; */
     height: 428px;
+    filter: saturate(0.5);
 }
 
 .contact-location iframe{
@@ -1597,4 +1602,13 @@ form{
 
 .fac-mainheader.name{
     font-size: 110px;
+}
+
+/* nav tabs css */
+.nav-tabs .nav-item{
+    margin-bottom: 10px;
+}
+
+.nav-link{
+    padding: 0;
 }
