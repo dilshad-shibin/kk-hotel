@@ -1473,6 +1473,15 @@ form{
     color: #eba24a;
 }
 
+.fac-aminities-iritty h2,
+.other-fac3 h2{
+    font-size: 1.8rem;
+}
+
+.other-fac3{
+    min-height: 500px;
+}
+
 .fac-mainheader{
     color: #f1eeea;
     font-size: 150px;
