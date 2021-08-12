@@ -417,6 +417,9 @@
     .main-img{
         margin-bottom: 20px;
     }
+    .main-img.main-img2{
+        text-align: center;
+    }
     .side-img li{
         padding: 10px;
     }
@@ -451,11 +454,18 @@
     .fac-aminities h2{
         font-size: 1.3rem;
     }
+    .fac-aminities-chaka h2{
+        font-size: 1.6rem;
+    }
     .broad-about-content p{
         text-align: center;
     }
     .other-fac{
         padding-left: 0;
+    }
+    .other-fac2{
+        padding: 35px;
+        margin-top: 0;
     }
     .booknow-img {
         padding: 30px 30px 50px;
@@ -480,6 +490,9 @@
     .contact-address .address{
         bottom: -285px;
         padding: 15px;
+    }
+    .contact-address .address-chaka{
+        bottom: -265px;
     }
     .contact-address .img{
         height: auto;
