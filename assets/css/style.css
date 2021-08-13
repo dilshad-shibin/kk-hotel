@@ -1281,10 +1281,20 @@ form{
 
 .hotel-slider2{
     position: relative;
-    background-image: url(../img/our-hotels/bread-banner.jpg);
+    background-image: url(../img/our-hotels/bread-banner3.jpg);
     background-size: cover;
     background-position: center;
     height: 400px;
+}
+
+.hotel-slider2 .overlay{
+    position: absolute;
+    background: #111111b3;
+    opacity: 0.9;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
 }
 
 .broad-about{
@@ -1668,14 +1678,12 @@ form{
     display: flex;
     align-items: center;
     justify-content: center;
+    position: relative;
 }
 
 .bread-head h1{
     font-size: 70px;
     color: #fff;
-    background: #111111b3;
-    padding: 20px;
-    opacity: 0.9;
 }
 
 .abt-area{
