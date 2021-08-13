@@ -18,7 +18,8 @@ body {
     -webkit-box-orient: vertical;
     -webkit-box-direction: normal;
     -ms-flex-direction: column;
-    flex-direction: column
+    flex-direction: column;
+    overflow: hidden;
 }
 
 ul {
@@ -1278,6 +1279,14 @@ form{
     height: 400px;
 }
 
+.hotel-slider2{
+    position: relative;
+    background-image: url(../img/our-hotels/bread-banner.jpg);
+    background-size: cover;
+    background-position: center;
+    height: 400px;
+}
+
 .broad-about{
     padding: 80px 0;
 }
@@ -1651,4 +1660,306 @@ form{
 
 .nav-link{
     padding: 0;
+}
+
+/* About page css */
+.bread-head{
+    height: 400px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.bread-head h1{
+    font-size: 70px;
+    color: #fff;
+    background: #111111b3;
+    padding: 20px;
+    opacity: 0.9;
+}
+
+.abt-area{
+    padding: 140px 0 250px;
+    position: relative;
+}
+
+.dotted-pattern{
+    position: absolute;
+    height: 322px;
+    width: 322px;
+    display: block;
+    background: url(../img/about/11.png)center center no-repeat;
+    right: -237px;
+    bottom: 130px;
+}
+
+.circles-two{
+    position: absolute;
+    height: 180px;
+    width: 180px;
+    right: 90px;
+    top: 80px;
+}
+
+.circles-two .c-1{
+    position: absolute;
+    width: 180px;
+    height: 180px;
+    background: #edf0f5;
+    opacity: .5;
+    border-radius: 50%;
+}
+
+.circles-two .c-2{
+    position: absolute;
+    left: -40px;
+    top: auto;
+    bottom: -30px;
+    width: 120px;
+    height: 120px;
+    background: #edf0f5;
+    opacity: .5;
+    border-radius: 50%;
+    z-index: 1;
+}
+
+.abt-area .text-column{
+    position: relative;
+    margin-bottom: 50px;
+    z-index: 1;
+}
+
+.abt-area .text-column .inner{
+    position: relative;
+    display: block;
+    padding-top: 90px;
+    padding-left: 40px;
+    margin-top: -10px;
+}
+
+.sec-title{
+    position: relative;
+    margin-bottom: 30px;
+}
+
+.sec-title h1{
+    position: relative;
+    display: block;
+    font-size: 48px;
+    line-height: 1.3em;
+    margin-bottom: 0;
+}
+
+.text-column .text{
+    font-size: 16px;
+    color: #8e949f;
+    line-height: 1.6em;
+    margin-bottom: 25px;
+}
+
+.text-column ul li{
+    position: relative;
+    display: block;
+    color: #555;
+    font-size: 16px;
+    line-height: 1.5em;
+    padding-left: 20px;
+    margin: 0 0 7px;
+}
+
+.text-column ul li::before{
+    content: '';
+    position: absolute;
+    left: 0;
+    top: 11px;
+    width: 10px;
+    border-bottom: 2px solid #555;
+}
+
+.abt-area .image-column{
+    position: relative;
+    margin-bottom: 50px;
+    z-index: 1;
+}
+
+.abt-area .image-column .inner{
+    position: relative;
+    display: block;
+    padding-right: 40px;
+}
+
+.dotted-pattern1{
+    position: absolute;
+    width: 250px;
+    height: 264px;
+    display: block;
+    background: url(../img/about/10.png) center center no-repeat;
+    top: 70px;
+    left: 50px;
+}
+
+.abt-area .image-box{
+    position: relative;
+}
+
+.abt-area .image-box .image{
+    position: relative;
+    display: block;
+    float: right;
+    width: 100%;
+    max-width: 330px;
+    box-shadow: 0px 0px 30px 0px rgb(0 0 0 / 10%), 0px 30px 30px 0px rgb(0 0 0 / 10%);
+    z-index: 1;
+    margin: 0;
+}
+
+.abt-area .image-box img{
+    position: relative;
+    display: block;
+    width: 100%;
+    height: auto;
+    max-width: 100%;
+    border: none;
+    border-radius: 0;
+    box-shadow: none;
+}
+
+.abt-area .image-box .image:nth-child(2){
+    position: absolute;
+    max-width: 280px;
+    top: 100%;
+    left: 0;
+    margin-top: -95px !important;
+}
+
+.abt-area .image-box .image:nth-child(3){
+    position: absolute;
+    max-width: 200px;
+    top: 100%;
+    left: 200px;
+    margin-top: 90px !important;
+}
+
+/* fact section */
+.fact-section{
+    /* background: #1b1c1e; */
+    background: #193d6f;
+    padding: 140px 0 90px;
+    position: relative;
+}
+
+.fact-section .circles{
+    position: absolute;
+    width: 125px;
+    height: 125px;
+    right: 50px;
+    top: 50px;
+    opacity: .50;
+}
+
+.fact-section .circles .c-1{
+    position: absolute;
+    width: 125px;
+    height: 125px;
+    background: #edf0f5;
+    opacity: .5;
+    border-radius: 50%;
+}
+
+.fact-section .circles .c-2{
+    position: absolute;
+    left: -25px;
+    top: 60px;
+    width: 80px;
+    height: 80px;
+    background: #edf0f5;
+    opacity: .5;
+    border-radius: 50%;
+    z-index: 1;
+}
+
+.fact-section .sec-title{
+    margin-bottom: 80px;
+    max-width: 700px;
+}
+
+.fact-section .sec-title h2{
+    /* color: #fff; */
+    color: #eba24a;
+    position: relative;
+    display: block;
+    font-size: 48px;
+    line-height: 1.3em;
+    margin-bottom: 0;
+}
+
+.sec-title .lower-text{
+    position: relative;
+    display: block;
+    font-size: 16px;
+    line-height: 1.7em;
+    font-weight: 400;
+    padding: 25px 0 0;
+    color: rgba(255,255,255,.7);
+}
+
+.fact-section .facts-box{
+    position: relative;
+    z-index: 1;
+}
+
+.fact-block{
+    position: relative;
+    display: block;
+    margin-bottom: 50px;
+}
+
+.fact-block .fact-inner{
+    position: relative;
+    display: block;
+    padding-top: 20px;
+    padding-left: 160px;
+    min-height: 130px;
+}
+
+.fact-block .fact-inner .fact-count{
+    /* background: rgba(255,255,255,.1); */
+    background: rgb(139 157 166 / 10%);
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 130px;
+    height: 130px;
+    padding: 35px 10px;
+    text-align: center;
+    color: #fff;
+    font-size: 40px;
+    line-height: 60px;
+    border-radius: 45% 55% 70% 35%/45% 45% 55% 45%;
+    box-shadow: 0px 30px 30px 0px rgb(0 0 0 / 10%);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.fact-block .fact-inner .fact-count h1{
+    margin: 0;
+    color: #fff;
+}
+
+.fact-block h4{
+    position: relative;
+    display: block;
+    margin-bottom: 15px;
+    color: #fff;
+    font-weight: 400;
+}
+
+.fact-block .text{
+    position: relative;
+    display: block;
+    line-height: 1.6em;
+    color: rgba(255,255,255,.7);
+    font-size: 15px;
+
 }
