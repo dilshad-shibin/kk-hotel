@@ -154,6 +154,9 @@
     .abt-area .image-box .image:nth-child(3){
         max-width: 180px;
     }
+    .contact-section-one .form-box{
+        margin-top: 0;
+    }
 }
 
 @media(max-width: 767px){
@@ -559,6 +562,31 @@
     }
     .fact-section .sec-title h2{
         font-size: 35px;
+    }
+    .contact-section-one .info .info-block .block-inner{
+        padding-left: 0;
+        text-align: center;
+    }
+    .contact-section-one .info .info-block .icon-box{
+        margin: 0 auto 30px;
+        position: relative;
+        left: 0;
+        top: 0;
+    }
+    .info-col .inner{
+        text-align: center;
+    }
+    .contact-section-one .form-box{
+        padding: 50px 20px 30px;
+        text-align: center;
+        box-shadow: 0px 0px 30px 0px rgb(0 0 0 / 10%);
+    }
+    .contact-section-one .form-box h3{
+        font-size: 22px;
+    }
+    .apply_now_contact{
+        padding: 12px 65px;
+        font-size: 16px;
     }
 }
 

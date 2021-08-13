@@ -1971,3 +1971,160 @@ form{
     font-size: 15px;
 
 }
+
+/* Contact area */
+.contact-section-one{
+    padding: 100px 0;
+    position: relative;
+}
+
+.info-col{
+    position: relative;
+    z-index: 1;
+}
+
+.info-col .inner{
+    position: relative;
+    display: block;
+    max-width: 500px;
+}
+
+.info-col .u-text{
+    position: relative;
+    display: block;
+    color: #1b1c1e;
+    font-size: 16px;
+    line-height: 1.6em;
+    margin: 0 0 55px;
+}
+
+.contact-section-one .info{
+    position: relative;
+}
+
+.contact-section-one .info .info-block{
+    position: relative;
+    display: block;
+    margin-bottom: 52px;
+}
+
+.contact-section-one .info .info-block .block-inner{
+    position: relative;
+    display: block;
+    padding-top: 10px;
+    padding-left: 146px;
+    min-height: 114px;
+}
+
+.contact-section-one .info .info-block .icon-box{
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 114px;
+    height: 114px;
+    padding: 27px 10px;
+    text-align: center;
+    /* background: #1b1c1e; */
+    background: #193d6f;
+    color: #fff;
+    font-size: 40px;
+    line-height: 60px;
+    border-radius: 45% 55% 70% 35%/45% 45% 55% 45%;
+    box-shadow: 0px 30px 30px 0px rgb(0 0 0 / 10%);
+}
+
+.contact-section-one .info .info-block h4{
+    position: relative;
+    display: block;
+    font-size: 24px;
+    margin-bottom: 15px;
+    color: #1b1c1e;
+}
+
+.contact-section-one .info .info-block .text{
+    position: relative;
+    display: block;
+    color: #555;
+    line-height: 1.7em;
+}
+
+.contact-section-one .info .info-block .text a{
+    color: #555;
+    letter-spacing: 1px;
+}
+
+.contact-section-one .form-col{
+    position: relative;
+    margin-bottom: 50px;
+}
+
+.contact-section-one .form-box{
+    position: relative;
+    display: block;
+    margin-top: -220px;
+    padding: 70px 70px 40px;
+    background: #fff;
+    box-shadow: 0px 25px 25px 0px rgb(0 0 0 / 7%);
+    z-index: 10;
+    height: auto;
+}
+
+.contact-section-one .form-box h3{
+    font-size: 36px;
+    text-transform: capitalize;
+    margin-bottom: 24px;
+}
+
+.contact-section-one .form-box .text{
+    position: relative;
+    display: block;
+    color: #555;
+    font-size: 16px;
+    line-height: 1.6em;
+    margin: 0 0 40px;
+}
+
+.contact-section-one .form-box form{
+    display: block;
+}
+
+.contact-section-one .form-box .form-group{
+    margin-bottom: 30px;
+}
+
+.contact-section-one .form-box .form-group .form-control{
+    position: relative;
+    display: block;
+    height: 52px;
+    width: 100%;
+    font-size: 16px;
+    color: #25283a;
+    line-height: 30px;
+    font-weight: 400;
+    padding: 10px 20px;
+    background-color: #fff;
+    border: 1px solid #e5e5e5;
+    border-radius: 0;
+    -webkit-transition: all .3s ease;
+    -ms-transition: all .3s ease;
+    -o-transition: all .3s ease;
+    -moz-transition: all .3s ease;
+    transition: all .3s ease;
+}
+
+.contact-section-one .form-box .form-group textarea{
+    height: 170px !important;
+}
+
+.contact-section-one .form-box .form-group input[type="text"]:focus,
+.contact-section-one .form-box .form-group textarea:focus{
+    border-color: #1b1c1e;
+    box-shadow: none;
+}
+
+.apply_now_contact{
+    border: 1px solid #eba24a;
+    border-radius: 0;
+    padding: 12px 65px;
+    font-size: 17px;
+}
