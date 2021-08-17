@@ -157,9 +157,15 @@
     .contact-section-one .form-box{
         margin-top: 0;
     }
+    .team-block .inner-box{
+        margin-bottom: 40px;
+    }
 }
 
 @media(max-width: 767px){
+    .team-block .inner-box{
+        margin-bottom: 40px;
+    }
     .property-box{
         padding-left: 50px;
         padding-right: 50px;

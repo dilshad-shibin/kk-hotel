@@ -1363,6 +1363,10 @@ form{
     height: 400px;
 }
 
+.hotel-slider2{
+    background-image: url(../img/our-hotels/breadbanner-about.jpg);
+}
+
 .hotel-slider2 .overlay{
     position: absolute;
     background: #111111b3;
@@ -1807,6 +1811,11 @@ form{
     z-index: 1;
 }
 
+.circles-two .c-3,
+.circles-two .c-4{
+    border-radius: 0;
+}
+
 .abt-area .text-column{
     position: relative;
     margin-bottom: 50px;
@@ -1908,6 +1917,10 @@ form{
     box-shadow: none;
 }
 
+.abt-area .image-box img{
+    border: 5px solid #fff;
+}
+
 .abt-area .image-box .image:nth-child(2){
     position: absolute;
     max-width: 280px;
@@ -1930,6 +1943,9 @@ form{
     background: #193d6f;
     padding: 140px 0 90px;
     position: relative;
+}
+.fact-section-group{
+    padding: 80px 0 25px;
 }
 
 .fact-section .circles{
@@ -1960,6 +1976,11 @@ form{
     opacity: .5;
     border-radius: 50%;
     z-index: 1;
+}
+
+.fact-section .circles .c-3,
+.fact-section .circles .c-4{
+    border-radius: 0;
 }
 
 .fact-section .sec-title{
@@ -2046,6 +2067,14 @@ form{
     color: rgba(255,255,255,.7);
     font-size: 15px;
 
+}
+
+.vision-text{
+    margin-top: 25px;
+}
+
+.vision-text p{
+    color: #fff;
 }
 
 /* Contact area */
@@ -2313,4 +2342,100 @@ form{
     color: #373f50 !important;
     font-size: .875rem !important;
     display: block;
+}
+
+.mng-area{
+    background-color: #f3f2ed;
+    padding: 80px 0;
+    position: relative;
+}
+
+.mng-head h2{
+    font-size: 2.5rem;
+    margin-bottom: 50px;
+}
+
+.team-block{
+    position: relative;
+    padding: 0 20px;
+}
+
+.team-block .inner-box{
+    position: relative;
+    display: block;
+    text-align: center;
+    padding-bottom: 50px;
+}
+
+.team-block .image-box {
+    position: relative;
+    display: block;
+    background: #1b1c1e;
+    overflow: hidden;
+}
+
+.team-block .image {
+    position: relative;
+    display: block;
+    overflow: hidden;
+    margin: 0
+}
+
+.team-block .image img {
+    position: relative;
+    display: block;
+    width: 100%;
+    transition: all .4s ease;
+    -moz-transition: all .4s ease;
+    -webkit-transition: all .4s ease;
+    -ms-transition: all .4s ease;
+    -o-transition: all .4s ease;
+}
+
+.team-block .info-box {
+    position: absolute;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    padding: 0 30px;
+}
+
+.team-block .info-box .info-inner {
+    position: relative;
+    display: block;
+    padding: 24px 20px;
+    background: #fff;
+    box-shadow: 0px 20px 30px 0px rgb(0 0 0 / 10%);
+    transition: all .4s ease;
+    -moz-transition: all .4s ease;
+    -webkit-transition: all .4s ease;
+    -ms-transition: all .4s ease;
+    -o-transition: all .4s ease;
+}
+
+.team-block .info-box h4 {
+    font-size: 24px;
+    text-transform: capitalize;
+    margin-bottom: 5px;
+}
+.team-block .info-box .designation {
+    position: relative;
+    display: block;
+    color: #8e949f;
+    line-height: 1.5em;
+}
+
+.team-block:hover .image img {
+    -ms-transform: scale(1.05);
+    transform: scale(1.05);
+    opacity: .80;
+}
+
+.team-block:hover .info-box .info-inner {
+    background: #1b1c1e;
+    color: #fff;
+}
+
+.team-block:hover .info-box .info-inner h4{
+    color: #fff;
 }
