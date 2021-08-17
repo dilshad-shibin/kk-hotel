@@ -588,6 +588,10 @@
         padding: 12px 65px;
         font-size: 16px;
     }
+    .hotel-slider2,
+    .bread-head{
+        height: 250px;
+    }
 }
 
 @media(max-width:359px){
