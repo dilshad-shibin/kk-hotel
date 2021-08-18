@@ -252,6 +252,22 @@
     .fac-mainheader.name{
         font-size: 80px;
     }
+    .destini-section .h-container::before{
+        display: none;
+    }
+    .destini-block .content-col .inner{
+        padding-right: 0;
+        text-align: center;
+        padding: 0 15px;
+    }
+    .destini-block.alternate .content-col .inner{
+        padding-left: 0;
+        text-align: center;
+        padding: 0 15px;
+    }
+    .destini-block .image-box::before{
+        display: none;
+    }
 }
 
 @media(max-width: 575px){

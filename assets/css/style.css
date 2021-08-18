@@ -2639,3 +2639,202 @@ form{
     font-size: 16px;
     line-height: 1.7em;
 }
+
+/* Destini section */
+.destini-section{
+    position: relative;
+    padding: 100px 0 140px;
+    background: #edf0f5;
+}
+
+.dotted-pattern2{
+    right: -180px;
+    bottom: 200px;
+    position: absolute;
+    width: 340px;
+    height: 322px;
+    display: block;
+    background: url(../img/about/6.png) center center no-repeat;
+}
+
+.tri-pattern{
+    position: absolute;
+    width: 285px;
+    height: 294px;
+    display: block;
+    background: url(../img/about/tri-5.png) center center no-repeat;
+    right: 30px;
+    bottom: 10px;
+    animation-name: rotateMe;
+    animation-duration: 25s;
+    animation-iteration-count: infinite;
+    animation-timing-function: linear;
+}
+
+@keyframes rotateMe {
+    from {
+        transform: rotate(0deg) scale(1)
+    }
+
+    to {
+        transform: rotate(360deg)
+    }
+}
+
+@-webkit-keyframes rotateMe {
+    from {
+        transform: rotate(0deg) scale(1)
+    }
+
+    to {
+        transform: rotate(360deg)
+    }
+}
+
+@-moz-keyframes rotateMe {
+    from {
+        transform: rotate(0deg) scale(1)
+    }
+
+    to {
+        transform: rotate(360deg)
+    }
+}
+
+@-o-keyframes rotateMe {
+    from {
+        transform: rotate(0deg) scale(1)
+    }
+
+    to {
+        transform: rotate(360deg)
+    }
+}
+
+.destini-head{
+    max-width: 550px;
+    margin: 0 auto;
+    margin-bottom: 60px;
+}
+
+.destini-head h2{
+    font-size: 2.6rem;
+    margin-bottom: 1rem;
+}
+
+.destini-section .h-container{
+    position: relative;
+    display: block;
+}
+
+.destini-section .h-container::before{
+    content: '';
+    position: absolute;
+    left: 50%;
+    top: 0;
+    bottom: 0;
+    border-left: 1px solid #d0d0d0;
+}
+
+.destini-block{
+    position: relative;
+    margin-top: 30px;
+}
+
+.destini-block:first-child{
+    margin-top: 0;
+}
+
+.destini-block .content-col{
+    position: relative;
+}
+
+.destini-block .content-col .inner{
+    position: relative;
+    display: block;
+    padding-right: 110px;
+}
+
+.destini-block .image-box{
+    position: relative;
+    display: block;
+    margin-bottom: 30px;
+}
+
+.destini-block .image-box::before{
+    content: '';
+    position: absolute;
+    left: -95px;
+    top: -70px;
+    width: 226px;
+    height: 226px;
+    display: block;
+    background: url(../img/about/13.png) center center no-repeat;
+}
+
+.destini-block .image-box::after{
+    content: '';
+    position: absolute;
+    right: -131.5px;
+    top: 50%;
+    margin-top: -6px;
+    width: 12px;
+    height: 12px;
+    background: #1b1c1e;
+    border-radius: 50%;
+}
+
+.destini-block .image-box .image{
+    position: relative;
+    display: block;
+    box-shadow: 0px 25px 30px 0px rgb(0 0 0 / 15%);
+}
+
+.destini-block .image-box .image img{
+    position: relative;
+    display: block;
+    width: 100%;
+}
+
+.destini-block h3{
+    font-size: 25px;
+    margin-bottom: 15px;
+}
+
+.destini-block .lower-box .text{
+    position: relative;
+    line-height: 1.7em;
+    color: #858990;
+    margin: 0 0 15px;
+}
+
+.destini-block.alternate .content-col{
+    order: 12;
+}
+
+.destini-block.alternate .empty-col{
+    order: 0;
+}
+
+.destini-block.alternate .image-box::before{
+    left: auto;
+    top: -75px;
+    right: -70px;
+}
+
+.destini-block.alternate .image-box::after{
+    right: auto;
+    left: -131.5px;
+}
+
+.destini-block.alternate .content-col .inner{
+    padding-left: 110px;
+    padding-right: 0;
+}
+
+.destini-block .lower-box{
+    padding: 0;
+    background: transparent;
+    box-shadow: none;
+}
+
