@@ -318,10 +318,10 @@ a {
 .desktop_menu_ul>li>ul{
     position: absolute;
     left: 0;
-    z-index: 20;
+    z-index: 91;
     background: #fff;
     /* width: 330px; */
-    width: 300px;
+    width: 320px;
     /* padding: 40px 50px; */
     padding: 30px;
     margin-left: -18px;
@@ -338,6 +338,11 @@ a {
 
 .desktop_menu_ul>li>ul li{
     display: block;
+    border-bottom: 1px solid #ddd;
+}
+
+.desktop_menu_ul>li>ul li:last-child{
+    border-bottom: none;
 }
 
 .desktop_menu_ul>li>ul li a{
@@ -346,7 +351,7 @@ a {
     font-weight: 500;
     display: block;
     line-height: 20px;
-    padding: 8px 0;
+    padding: 12px 0;
     transition: all 0.5s ease-out 0s;
     -webkit-transition: all 0.5s ease-out 0s;
 }

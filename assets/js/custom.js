@@ -54,7 +54,7 @@
         nav: true,
         dots: false,
         smartSpeed: 2000,
-        autoplay: false,
+        autoplay: true,
         responsiveClass: true,
         autoplayTimeout: 4000,
         navText: ['<i class="fi ti-angle-left"></i>', '<i class="fi ti-angle-right"></i>'],
