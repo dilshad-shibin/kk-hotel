@@ -609,6 +609,9 @@
     .bread-head{
         height: 250px;
     }
+    .choose-head h2{
+        font-size: 2.2rem;
+    }
 }
 
 @media(max-width:359px){
