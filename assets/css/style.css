@@ -2439,3 +2439,118 @@ form{
 .team-block:hover .info-box .info-inner h4{
     color: #fff;
 }
+
+/* Faclilities page css */
+.facilities-area{
+    position: relative;
+    padding: 100px 0;
+    background: #f2f3f3;
+}
+
+.facility-head{
+    max-width: 700px;
+    text-align: center;
+    margin: 0 auto;
+    margin-bottom: 50px;
+}
+
+.facility-head h2{
+    font-size: 2.6rem;
+    margin-bottom: 1rem;
+}
+
+.inner-facility{
+    position: relative;
+    display: block;
+    padding: 20px 0px 50px;
+}
+
+.inner-facility .image-box{
+    position: relative;
+    display: block;
+    overflow: hidden;
+}
+
+.lower-box{
+    position: relative;
+    padding: 32px 35px 40px;
+    display: block;
+    background: #fff;
+    box-shadow: 0px 15px 30px 0px rgb(0 0 0 / 7%);
+    transition: all .4s ease;
+}
+
+.lower-box h4{
+    margin-bottom: 15px;
+}
+
+.lower-box .text{
+    position: relative;
+    display: block;
+    color: #555;
+    font-size: 16px;
+    line-height: 1.6em;
+    margin: 0 0 40px;
+}
+
+.lower-box .link-box{
+    position: relative;
+    display: block;
+}
+
+.theme-btn-facility{
+    display: block;
+}
+
+.theme-btn-facility span{
+    position: relative;
+    display: block;
+    font-size: 16px;
+    line-height: 30px;
+    color: #1b1c1e;
+    font-weight: 500;
+    padding: 15px 40px;
+    background: #edf0f5;
+    border-radius: 0;
+    z-index: 1;
+    transition: all .3s ease;
+    -moz-transition: all .3s ease;
+    -webkit-transition: all .3s ease;
+    -ms-transition: all .3s ease;
+    -o-transition: all .3s ease;
+}
+
+.theme-btn-facility span:hover{
+    color: #fff;
+    background: #1b1c1e;
+}
+
+.facility-slider.owl-carousel .owl-dots{
+    display: none !important
+}
+
+.facility-slider.owl-carousel .owl-nav{
+    text-align: center;
+}
+
+.facility-slider.owl-carousel .owl-nav [class*=owl-]{
+    color: #eba24a;
+    border: 1px solid #eba24a;
+    font-size: 14px;
+    margin: 5px;
+    padding: 4px 7px !important;
+    display: inline-block;
+    cursor: pointer;
+    transition: all .3s ease;
+}
+
+.facility-slider.owl-carousel .owl-nav [class*=owl-]:hover{
+    background: #eba24a;
+    border: 1px solid #eba24a;
+    color: #fff;
+    transition: all .3s ease;
+}
+
+.facility-slider.owl-carousel .owl-nav [class*=owl-]:focus{
+    outline: none;
+}
