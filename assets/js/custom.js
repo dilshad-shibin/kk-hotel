@@ -76,6 +76,36 @@
         }
     });
 
+    // News SLIDER ACTIVE CODE
+    $('.news-slider.owl-carousel').owlCarousel({
+        loop: true,
+        margin: 10,
+        nav: true,
+        dots: false,
+        smartSpeed: 2000,
+        autoplay: true,
+        responsiveClass: true,
+        autoplayTimeout: 4000,
+        navText: ['<i class="fi ti-angle-left"></i>', '<i class="fi ti-angle-right"></i>'],
+        responsive: {
+            0: {
+                items: 1,
+                margin: 20
+            },
+            576: {
+                items: 1
+            },
+            768: {
+                items: 2
+            },
+            992: {
+                items: 3,
+                margin: 20,
+                nav: true
+            }
+        }
+    });
+
     // :: COUNTERUP ACTIVE CODE
     $('.counter').counterUp({
         delay: 10,
