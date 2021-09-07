@@ -124,6 +124,14 @@
 
 })(jQuery);
 
+$(document).ready(function(){
+    //mobile book now btn 
+    $('.mobile_btn').click(function() {
+        $('.panel-menu').hide();
+        $('.mm-open .mm-fullscreen-bg').attr('style','background: transparent');
+    });
+})
+
 
 
 $(document).ready(function(){
